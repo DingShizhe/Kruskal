@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 #include "../include/graph.h"
 
 // 按输入建立一个图
@@ -98,7 +99,7 @@ int print_graph(Graph G){
 	for(i=0; i<G->edgenum; i++)
 		printf("  %c-->%c  %d\n", G->vertices[G->edges[i].from], G->vertices[G->edges[i].to], G->edges[i].weight);
 
-	printf("\n\n\n\n");
+	printf("\n\n");
 	return 0;
 }
 
@@ -191,8 +192,31 @@ Graph create_test_graph(void){
 }
 
 
-int print2pic(Graph G){
+int graph2pic(Graph G, char *file_name){
 	if(!G) return -1;
+
+	// 生成过程文件.dot 的路径和文件名  路径默认为./temp
+	char file_path[20] = "./temp/";
+	char suffix[5] = ".dot";
+	strcat(file_path, file_name);
+	strcat(file_path, suffix);
+
+	// printf("%s\n", file_path);
+
+	// 创建文件
+	FILE* file = fopen(file_path, "w");
+	if(!file) return 0;
+
+	// 对文件进行写入操作
+	fprintf(file, "digraph kruskal {\n");
+
+	for(int i=0; i<G->edgenum; i++)
+		fprintf(file, "\t%c -> %c [label=\"%d\" arrowhead=\"none\"]\n", 'A'+G->edges[i].from, 'A'+G->edges[i].to, G->edges[i].weight);
+	fprintf(file, "}\n");
+
+	// 写入完毕
+	fclose(file);
+
 
 	return 0;
 }

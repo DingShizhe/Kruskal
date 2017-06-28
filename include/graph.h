@@ -33,5 +33,6 @@ int add_edge(edge tmp, Graph G);
 Graph create_test_graph(void);
 Graph initial_mini_gTree(Graph G);
 int print_graph(Graph G);
+int graph2pic(Graph G, char *file_name);
 
 #endif

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/dingshizhe/Documents/DataStructure/homework/project/include/graph.h
+/home/dingshizhe/Documents/DataStructure/homework/Kruskal/include/graph.h
 stdio.h
 -
 stdlib.h
@@ -14,41 +14,43 @@ stdlib.h
 time.h
 -
 
-/home/dingshizhe/Documents/DataStructure/homework/project/include/mfset.h
+/home/dingshizhe/Documents/DataStructure/homework/Kruskal/include/mfset.h
 stdio.h
 -
 stdlib.h
 -
 
-/home/dingshizhe/Documents/DataStructure/homework/project/source/./kruskal.c
+/home/dingshizhe/Documents/DataStructure/homework/Kruskal/source/./kruskal.c
 
-/home/dingshizhe/Documents/DataStructure/homework/project/source/graph.c
-stdio.h
--
-stdlib.h
--
+/home/dingshizhe/Documents/DataStructure/homework/Kruskal/source/graph.c
 time.h
 -
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
 ../include/graph.h
-/home/dingshizhe/Documents/DataStructure/homework/project/include/graph.h
+/home/dingshizhe/Documents/DataStructure/homework/Kruskal/include/graph.h
 
-/home/dingshizhe/Documents/DataStructure/homework/project/source/main.c
+/home/dingshizhe/Documents/DataStructure/homework/Kruskal/source/main.c
 ../include/graph.h
-/home/dingshizhe/Documents/DataStructure/homework/project/include/graph.h
+/home/dingshizhe/Documents/DataStructure/homework/Kruskal/include/graph.h
 ../include/mfset.h
-/home/dingshizhe/Documents/DataStructure/homework/project/include/mfset.h
+/home/dingshizhe/Documents/DataStructure/homework/Kruskal/include/mfset.h
 ./kruskal.c
-/home/dingshizhe/Documents/DataStructure/homework/project/source/./kruskal.c
+/home/dingshizhe/Documents/DataStructure/homework/Kruskal/source/./kruskal.c
 stdio.h
 -
 stdlib.h
 -
 
-/home/dingshizhe/Documents/DataStructure/homework/project/source/mfset.c
+/home/dingshizhe/Documents/DataStructure/homework/Kruskal/source/mfset.c
 stdio.h
 -
 stdlib.h
 -
 ../include/mfset.h
-/home/dingshizhe/Documents/DataStructure/homework/project/include/mfset.h
+/home/dingshizhe/Documents/DataStructure/homework/Kruskal/include/mfset.h
 

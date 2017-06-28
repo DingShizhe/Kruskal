@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/dingshizhe/Documents/DataStructure/homework/project/./include 
+C_INCLUDES = -I/home/dingshizhe/Documents/DataStructure/homework/Kruskal/./include 
 

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/dingshizhe/Documents/DataStructure/homework/project/source/graph.c" "/home/dingshizhe/Documents/DataStructure/homework/project/build/CMakeFiles/kruskal.dir/source/graph.c.o"
-  "/home/dingshizhe/Documents/DataStructure/homework/project/source/main.c" "/home/dingshizhe/Documents/DataStructure/homework/project/build/CMakeFiles/kruskal.dir/source/main.c.o"
-  "/home/dingshizhe/Documents/DataStructure/homework/project/source/mfset.c" "/home/dingshizhe/Documents/DataStructure/homework/project/build/CMakeFiles/kruskal.dir/source/mfset.c.o"
+  "/home/dingshizhe/Documents/DataStructure/homework/Kruskal/source/graph.c" "/home/dingshizhe/Documents/DataStructure/homework/Kruskal/build/CMakeFiles/kruskal.dir/source/graph.c.o"
+  "/home/dingshizhe/Documents/DataStructure/homework/Kruskal/source/main.c" "/home/dingshizhe/Documents/DataStructure/homework/Kruskal/build/CMakeFiles/kruskal.dir/source/main.c.o"
+  "/home/dingshizhe/Documents/DataStructure/homework/Kruskal/source/mfset.c" "/home/dingshizhe/Documents/DataStructure/homework/Kruskal/build/CMakeFiles/kruskal.dir/source/mfset.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

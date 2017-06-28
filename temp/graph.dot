@@ -1,0 +1,13 @@
+digraph kruskal {
+	D -> E [label="15" arrowhead="none"]
+	F -> G [label="11" arrowhead="none"]
+	B -> D [label="9" arrowhead="none"]
+	E -> G [label="9" arrowhead="none"]
+	B -> C [label="8" arrowhead="none"]
+	E -> F [label="8" arrowhead="none"]
+	A -> B [label="7" arrowhead="none"]
+	B -> E [label="7" arrowhead="none"]
+	D -> F [label="6" arrowhead="none"]
+	A -> D [label="5" arrowhead="none"]
+	C -> E [label="5" arrowhead="none"]
+}
