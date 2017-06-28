@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/kruskal.dir/source/graph.c.o CMakeFiles/kruskal.dir/source/mfset.c.o CMakeFiles/kruskal.dir/source/main.c.o  -o kruskal 
